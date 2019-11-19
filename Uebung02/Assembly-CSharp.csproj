@@ -567,6 +567,7 @@
      <Compile Include="Assets\TiltMaze\Scripts\DoorController.cs" />
      <Compile Include="Assets\TiltMaze\Scripts\FocusHighlight.cs" />
      <Compile Include="Assets\TiltMaze\Scripts\GameController.cs" />
+     <Compile Include="Assets\TiltMaze\Scripts\MazeMover.cs" />
      <Compile Include="Assets\TiltMaze\Scripts\WinningCondition.cs" />
      <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFConstant.cginc" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\UnlitConfigurable.shader" />
