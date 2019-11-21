@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.4964127, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465934, g: 0.49642956, b: 0.5748249, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -173,6 +173,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 0, g: 1, b: 0, a: 1}
   highlightColor: {r: 1, g: 0, b: 0, a: 1}
+--- !u!114 &148614182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 148614174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c6a2ccb1962c4d439da7858c1f3ff2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &229095245
 Prefab:
   m_ObjectHideFlags: 0
@@ -233,6 +244,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 0, g: 1, b: 0, a: 1}
   highlightColor: {r: 1, g: 0, b: 0, a: 1}
+--- !u!114 &339727517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 339727509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c6a2ccb1962c4d439da7858c1f3ff2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &436528258
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,6 +390,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColor: {r: 0, g: 1, b: 0, a: 1}
   highlightColor: {r: 1, g: 0, b: 0, a: 1}
+--- !u!114 &862105225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 862105217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c6a2ccb1962c4d439da7858c1f3ff2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1110746137
 Prefab:
   m_ObjectHideFlags: 0
@@ -494,6 +527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 314e28dd6e2c53c48be201f6126174f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lerpSpeed: 10
 --- !u!1001 &1367759301
 Prefab:
   m_ObjectHideFlags: 0
