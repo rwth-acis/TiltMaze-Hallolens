@@ -255,6 +255,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c6a2ccb1962c4d439da7858c1f3ff2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &356095824 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000011070707148, guid: 3eddd1c29199313478dd3f912bfab2ab,
+    type: 2}
+  m_PrefabInternal: {fileID: 558371752}
+--- !u!114 &356095825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 356095824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c62fd7a55ba7458499b69cae18f83806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PersistentKeywords: 0
+  RecognizerStart: 0
+  Keywords:
+  - Keyword: Reset
+    KeyCode: 0
+  recognitionConfidenceLevel: 1
 --- !u!1 &436528258
 GameObject:
   m_ObjectHideFlags: 0
@@ -372,6 +394,43 @@ Transform:
   m_PrefabParentObject: {fileID: 4621868932006582, guid: cde52dac3a90ae947a0be85c34747c51,
     type: 2}
   m_PrefabInternal: {fileID: 229095245}
+--- !u!1 &754986663 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1128309580237104, guid: d34f2e16cfff652468446ce91d909bcf,
+    type: 2}
+  m_PrefabInternal: {fileID: 1316984077}
+--- !u!114 &754986664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 754986663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7d6513c2cdf97f409654a2a4114d9b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Keywords:
+  - Keyword: Reset
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114051897110849152, guid: d34f2e16cfff652468446ce91d909bcf,
+            type: 2}
+          m_MethodName: ResetGame
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  IsGlobalListener: 0
+  PersistentKeywords: 0
 --- !u!1 &862105217 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1478181465011934, guid: d34f2e16cfff652468446ce91d909bcf,
