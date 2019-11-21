@@ -9,10 +9,11 @@ public class MazeMover : MonoBehaviour, IManipulationHandler{
 
 	private Vector3 startPosition;
     private Vector3 targetPosition;
-    private Vector3 mazeRotation;
+    private Vector3 upAxis;
+    public float lerpSpeed = 10f;
 
 	void Start () {
-        startPosition = gameObject.transform.position;
+        startPosition = transform.position;
     }
 
 	void Update () {
@@ -21,8 +22,9 @@ public class MazeMover : MonoBehaviour, IManipulationHandler{
 
     public void OnManipulationUpdated(ManipulationEventData eventData){
         InputManager.Instance.OverrideFocusedObject = gameObject;
-        targetPosition = eventData.CumulativeDelta * 100;
-        gameObject.transform.parent.transform.rotation = Quaternion.Euler(mazeRotation.x + targetPosition.y, mazeRotation.y, mazeRotation.z - targetPosition.x);
+        targetPosition = eventData.CumulativeDelta + startPosition;
+        upAxis = targetPosition - transform.parent.position;
+        transform.parent.up = Vector3.Lerp(transform.parent.up, upAxis, lerpSpeed * Time.deltaTime);
     }
 
     public void OnManipulationCanceled(ManipulationEventData eventData){
@@ -30,12 +32,10 @@ public class MazeMover : MonoBehaviour, IManipulationHandler{
     }
 
     public void OnManipulationCompleted(ManipulationEventData eventData){
-        mazeRotation = gameObject.transform.parent.transform.rotation.eulerAngles;
         InputManager.Instance.OverrideFocusedObject = null;
     }
 
     public void OnManipulationStarted(ManipulationEventData eventData){
         InputManager.Instance.OverrideFocusedObject = gameObject;
-        mazeRotation = gameObject.transform.parent.transform.rotation.eulerAngles;
     }
 }
