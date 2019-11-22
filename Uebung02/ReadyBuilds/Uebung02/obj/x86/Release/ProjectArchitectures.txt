@@ -1,0 +1,2 @@
+C:\Users\Public\Documents\TiltMaze-Hallolens\Uebung02\ReadyBuilds\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\Public\Documents\TiltMaze-Hallolens\Uebung02\ReadyBuilds\Uebung02\Uebung02.csproj;x86
