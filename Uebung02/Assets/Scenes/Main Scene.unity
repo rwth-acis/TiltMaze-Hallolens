@@ -274,8 +274,8 @@ MonoBehaviour:
   PersistentKeywords: 0
   RecognizerStart: 0
   Keywords:
-  - Keyword: Reset
-    KeyCode: 0
+  - Keyword: reset
+    KeyCode: 27
   recognitionConfidenceLevel: 1
 --- !u!1 &436528258
 GameObject:
@@ -411,12 +411,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Keywords:
-  - Keyword: Reset
+  - Keyword: reset
     Response:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 114051897110849152, guid: d34f2e16cfff652468446ce91d909bcf,
-            type: 2}
+        - m_Target: {fileID: 754986665}
           m_MethodName: ResetGame
           m_Mode: 1
           m_Arguments:
@@ -426,11 +425,17 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
-          m_CallState: 2
+          m_CallState: 1
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
   IsGlobalListener: 0
   PersistentKeywords: 0
+--- !u!114 &754986665 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114051897110849152, guid: d34f2e16cfff652468446ce91d909bcf,
+    type: 2}
+  m_PrefabInternal: {fileID: 1316984077}
+  m_Script: {fileID: 11500000, guid: 7d7351bc8e9090441b14aa1fad86f03d, type: 3}
 --- !u!1 &862105217 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1478181465011934, guid: d34f2e16cfff652468446ce91d909bcf,
