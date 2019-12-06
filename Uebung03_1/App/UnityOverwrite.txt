@@ -5,12 +5,11 @@
 # Write a line equal to 'overwrite-all' (without quotes) to overwrite everything (preserved accross builds)
 # Write a line equal to 'keep-all' (without quotes) to keep files regardless their modification (preserved accross builds)
 # Default behavior is to never overwrite files
-Uebung03_1.sln: ACE7DD7D86B945E238B6603E13C7F927
-GeneratedProjects\UWP\Assembly-CSharp\project.json: 88AA7FF964823F6407718C34CA0DFE19
+Uebung03_1.sln: FC0F08623CBAA20438B64F8D5D93D854
 Uebung03_1\App.cs: 1E288C3D2AB94A7AA0639E33A71D9457
 Uebung03_1\Package.appxmanifest: 97257E85EDB0460F035C8B6D4B9B9885
 Uebung03_1\project.json: 1D02BC64BAC0D041019673A1C4C51737
-Uebung03_1\Uebung03_1.csproj: F51525888ABE90A0871C6A6DA96086CF
+Uebung03_1\Uebung03_1.csproj: 6729A14A10BD01EFBA739E3DA821FACD
 Uebung03_1\Uebung03_1.csproj.user: BEFB8AC4886C4CFDD3C68445D6F19B04
 Uebung03_1\Assets\SplashScreen.scale-200.png: A85C1D7624B6902CF8CEBD6F0200A826
 Uebung03_1\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084
