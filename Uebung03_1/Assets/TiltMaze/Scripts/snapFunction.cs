@@ -13,10 +13,6 @@ public class snapFunction : MonoBehaviour{
         solver = gameObject.GetComponent<SolverHandler>();
         solver.enabled = false;
     }
-
-	void Update () {
-		
-	}
     
     public void turnOnOffSnap(){
         solver.enabled = !solver.enabled;

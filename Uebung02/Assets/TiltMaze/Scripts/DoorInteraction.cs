@@ -14,11 +14,6 @@ public class DoorInteraction : MonoBehaviour, IInputClickHandler {
         contr = gameObject.GetComponent<DoorController>();
         contr.DoorOpen = false;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
     public void OnInputClicked(InputClickedEventData eventData)
     {

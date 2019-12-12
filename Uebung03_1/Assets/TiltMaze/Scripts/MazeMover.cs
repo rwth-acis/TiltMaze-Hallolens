@@ -16,10 +16,6 @@ public class MazeMover : MonoBehaviour, IManipulationHandler{
         startPosition = transform.position;
     }
 
-	void Update () {
-		
-	}
-
     public void OnManipulationUpdated(ManipulationEventData eventData){
         InputManager.Instance.OverrideFocusedObject = gameObject;
         targetPosition = eventData.CumulativeDelta + startPosition;
