@@ -22,7 +22,10 @@ Further development to Uebung02, to enable scaling, rotating and moving of maze 
 - Open with Unity and run in editor
 - Or use steps under "Exercise: Developing a Unity Project For the Microsoft HoloLens" on this [Link](http://dbis.rwth-aachen.de/ar-for-eu-book/chapter/engines/) to deploy on Hololens
 ## Resources Used
-
+- Unity 2017.4.34
+- HoloToolkit 2017.4.3.0 - Refresh [Link](https://github.com/microsoft/MixedRealityToolkit-Unity/releases/tag/2017.4.3.0-Refresh)
+- Visual Studio Community 2017
+- "TiltMaze" unitypackage given by Mixed Reality Lab Team
 ## Authors
 Steven Zambrano
 
